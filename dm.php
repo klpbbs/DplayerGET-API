@@ -1,5 +1,11 @@
 <link href="res/DPlayer.min.css" rel="stylesheet">
 <script src="res/DPlayer.min.js"></script>
+<style type="text/css">
+    body,html{width:100%;height:100%;background:#000;padding:0;margin:0;overflow-x:hidden;overflow-y:hidden}
+    *{margin:0;border:0;padding:0;text-decoration:none}
+    #stats{position:fixed;top:5px;left:10px;font-size:12px;color:#fdfdfd;z-index:2147483647;text-shadow:1px 1px 1px #000, 1px 1px 1px #000}
+    #dplayer{position:inherit}
+</style>
 <?php
 $url = $_GET["url"];
 $dm = $_GET["dm"];
